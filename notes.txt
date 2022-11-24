@@ -1,0 +1,34 @@
+/*
+multiple selectors-->
+p1, p2{
+    color: #ff4c68;
+    font-size: 1.2rem;
+}
+
+hierarchial selectors
+
+parent child selectors-->
+p1 p2{
+    color: #ff4c68;
+    font-size: 1.2rem;
+}
+
+combined selectors-->
+if all are present in the same level
+p1p2{
+    color: #ff4c68;
+    font-size: 1.2rem;
+}
+
+here p1 and p2 can be any combination of body, h1, h2, h3, h4, h5, h6, p, li, a, span, etc.
+and . and # can be used as well.
+
+*/
+
+the levels of imp of styling are :-
+if all are present in the same level
+1st id 2nd class and 3rd to general classes like h1 to h6 and body
+
+always use ids for the navigation bar
+and always inline is superior
+inline style > id > class > general class if all are in same level

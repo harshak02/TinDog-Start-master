@@ -1,0 +1,202 @@
+/*to change the surrounding like to increase the section we need to adjust the padding of the inner exact divison*/
+#title{
+    background-color: #ff4c68;
+
+}
+
+#features{
+    position: relative;
+    /*this above is most imp just to stack on above this condn is needed eatch that flowchart*/
+    /* bottom : 105px; */
+    background-color: whitesmoke;
+    z-index : 1;
+    /* padding-bottom: 0px; */
+}
+
+.txtImg{
+    transform: rotate(34deg);
+    width: 17%;
+    margin-left : 10%;
+    margin-top : 2%; 
+    position : absolute;
+    /*once u keep position absolute it wont allocate aboundary to u game changer */
+    z-index: 0;
+    
+}
+
+.feature{
+    font-family: "Ubuntu";
+    text-align: center;
+}
+
+h1{
+    font-family : 'Yeseva One', cursive;
+    font-size : 3.6rem;
+    line-height : 1.5;
+    color : #fff;
+    font-weight : bold;
+}
+
+.container{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding : 2% 15%;
+    padding-bottom : 6%;
+}
+
+body{
+    font-family: "Ubuntu";
+}
+
+.navbar{
+    padding-left : 0;
+    padding-bottom: 4rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.nav-item{
+    font-size : 1.2rem;
+    padding : 0 0.75rem;
+}
+
+.btn-dwn{
+    margin : 5% 3% 5% 0;
+}
+
+
+
+h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+
+.featRow{
+    padding : 4rem;
+    /* line-height: 1.5; */
+}
+
+.icon:hover{
+    transform: scale(1.2);
+}
+
+.icon{
+    padding-bottom : 2rem;
+    color: #000;
+
+}
+
+p{
+    color : #8f8f8f;
+    font-size : 1.2rem;
+}
+
+#testimonials{
+    padding : 5% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    /* padding-bottom: 5rem; */
+}
+
+h2{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size : 3rem;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.h2Img{
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-size : 3rem;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;  
+    color : whitesmoke;
+}
+
+.tst-img{
+    width : 10%;
+    border-radius: 65%;
+    padding : 10px;
+}
+
+#press{
+    /* padding : 7% 15%; */
+    text-align: center;
+    background-color: #ff4c68;  
+    padding-bottom: 30px;
+    /* padding-top : 10px; */
+}
+
+.imag{
+    padding-left : 30px;
+    padding-right : 30px;
+    width : 20%;
+
+}
+
+#pricing{
+    text-align : center;
+    padding : 50px;
+}
+
+.bt1{
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+
+.col-lg-4{
+    padding : 2rem;
+}
+
+@media (max-width : 1100px){
+    .txtImg{
+        position: static;
+        transform: rotate(0deg);
+        width : 50%;
+        margin-left : 0;
+        /*the above is anti reacrion*/
+    }
+    #title{
+        text-align: center;
+    }
+    #features{
+        position : static;
+    }
+
+}
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    line-height: 1.5;
+    padding : 5% 15%;
+    padding-bottom: 10px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color : whitesmoke;
+}
+
+#footer{
+    background-color: whitesmoke;
+    padding : 1.5% 10%;
+    text-align : center;
+}
+
+.fil{
+    padding: 2% 1%;
+}
+
+
+
